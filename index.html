@@ -63,28 +63,29 @@
     <div class="container">
       <div class="grid">
         <div class="hero__item left">
-          <span>Développeur Web/Mobile</span>
-          <h1 class="title">Hello, Je suis Pierrot de Saint-Malo!</h1>
+          <h2 class=" hero_h2">Développeur Web/Mobile</h2>
         </div>
         <div class="hero__item right">
           <div class="hero__avatar">
-            <img src="./img/avatar.svg" width="400" height="400" loading="lazy"
+            <img src="./img/photo_profil.jpg" width="400" height="400" loading="lazy"
               alt="Avatar Pierre Lebranchu - Développeur web/mobile">
           </div>
         </div>
       </div>
     </div>
   </section>
+  
   <section id="about" class="about">
     <div class="container">
       <div class="grid">
+        <!-- <div class="grid__item">
+          <img src="./img/avatar.svg" width="560" height="453" loading="lazy"
+            alt="Pierre Lebranchu - Développeur web/mobile">
+        </div> -->
         <div class="grid__item">
-          <img src="./img/photo_profil.jpg" width="560" height="453" loading="lazy"
-            alt="John Doe - Développeur web freelance">
-        </div>
-        <div class="grid__item">
-          <h2 class="section-title">A propos</h2>
-          <h3>Qui suis-je</h3>
+          <div class="section-header"><h2 class="section-title">A propos</h2></div>
+          
+          <!-- <h3>Qui suis-je</h3> -->
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Mot ou portion de phrase
               importante</strong>, ipsum aut
             beatae quis nemo dolore! Culpa officia explicabo obcaecati sint!
@@ -97,13 +98,11 @@
       </div>
     </div>
   </section>
+
   <section id="services" class="services">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Services</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius eos dolore obcaecati perspiciatis. Eos neque
-          similique placeat doloremque cupiditate, ut vero autem officia repellat explicabo, doloribus vel? Culpa, fuga
-          quod!</p>
       </div>
       <div class="grid">
         <div class="grid__item">
@@ -236,38 +235,53 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Compétences</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius eos dolore obcaecati perspiciatis. Eos neque
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius eos dolore obcaecati perspiciatis. Eos neque
           similique placeat doloremque cupiditate, ut vero autem officia repellat explicabo, doloribus vel? Culpa, fuga
-          quod!</p>
+          quod!</p> -->
       </div>
       <div class="grid">
         <div class="grid__item">
-          <h3>Domaines de compétences</h3>
+          <h3>Langages</h3>
           <ul class="list-unstyled">
             <li>
-              <h4>Compétence</h4>
-              <p>Description de la compétence</p>
+              <h4>HTML</h4>
             </li>
             <li>
-              <h4>Compétence</h4>
-              <p>Description de la compétence</p>
+              <h4>CSS</h4>
             </li>
             <li>
-              <h4>Compétence</h4>
-              <p>Description de la compétence</p>
+              <h4>JAVASCRIPT</h4>
             </li>
             <li>
-              <h4>Compétence</h4>
-              <p>Description de la compétence</p>
+              <h4>JAVA</h4>
             </li>
             <li>
-              <h4>Compétence</h4>
-              <p>Description de la compétence</p>
+              <h4>PHP</h4>
             </li>
           </ul>
         </div>
         <div class="grid__item">
-          <h3>Compétences en développement</h3>
+          <h3>Frameworks & Librairies</h3>
+          <ul class="list-unstyled">
+            <li>
+              <h4>Symfony</h4>
+            </li>
+            <li>
+              <h4>Bootstrap</h4>
+            </li>
+            <!-- <li>
+              <h4>JAVASCRIPT</h4>
+            </li>
+            <li>
+              <h4>JAVA</h4>
+            </li>
+            <li>
+              <h4>PHP</h4>
+            </li> -->
+          </ul>
+        </div>
+        <!-- <div class="grid__item">
+          <h3>Frameworks</h3>
           <div class="progressbar">
             <div class="bar" data-width="50">HTML</div>
           </div>
@@ -292,7 +306,7 @@
           <div class="progressbar">
             <div class="bar" data-width="40">WORDPRESS</div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -474,12 +488,12 @@
         </div>
 
         <div class="grid__item">
-          <div class="card" data-category="app">
+          <div class="card" data-category="web">
             <img src="https://picsum.photos/600/400?random=3" loading="lazy" width="365" height="243"
               alt="projet de la ville" class="card__image">
             <div class="card__inner">
-              <h3 class="card__title">Titre du projet</h3>
-              <p class="category">Applications</p>
+              <h3 class="card__title">portfolio</h3>
+              <p class="category">Développement Web</p>
             </div>
             <div class="card__overlay">
               <a href="#" class="card__link" data-id="modal-3">+</a>
@@ -498,7 +512,7 @@
                       class="card__image" alt="Projet site de la ville de lyon" />
                   </div>
                   <div class="grid__item">
-                    <h4 class="modal__title h2">Titre de la modal 3</h4>
+                    <h4 class="modal__title h2">portfolio</h4>
                     <p>
                       <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
                         data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
@@ -507,7 +521,7 @@
                           d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
                         </path>
                       </svg>
-                      <i>Année : 2019</i>
+                      <i>Année : 2022</i>
                     </p>
                     <p class="category">
                       <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
@@ -517,7 +531,7 @@
                           d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
                         </path>
                       </svg>
-                      Refonte graphique
+                      Développement Web
                     </p>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing
@@ -525,7 +539,6 @@
                       voluptate, animi, sint vel mollitia ut odio, eius quis
                       expedita quo at! Dignissimos ipsum odit dolores!
                     </p>
-
                     <h5 class="h3">Informations</h5>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing
@@ -533,16 +546,10 @@
                       voluptate, animi, sint vel mollitia ut odio, eius quis
                       expedita quo at! Dignissimos ipsum odit dolores!
                     </p>
-
                     <h5 class="h3">Technologies</h5>
-
                     <ul>
                       <li>HTML, CSS</li>
                       <li>Javascript</li>
-                      <li>React</li>
-                      <li>Node.js</li>
-                      <li>Express.js</li>
-                      <li>MongoDB</li>
                     </ul>
                   </div>
                 </div>
@@ -550,6 +557,7 @@
             </div>
           </div>
         </div>
+
         <div class="grid__item">
           <div class="card" data-category="web">
             <img src="https://picsum.photos/600/400?random=4" loading="lazy" width="365" height="243"
@@ -784,19 +792,19 @@
         </div>
       </div>
     </div>
-
   </section>
+
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Contact</h2>
-        <p>Questions...<br> 
-          Besoin d'informations supplémentaires...<br>
-          Ou peut-être juste un commentaire?<br>
+        <p>Des questions,<br> 
+          un besoin d'informations supplémentaires,<br>
+          ou peut-être juste un commentaire...<br>
           N'hésitez pas à m'envoyer un message!</p>
-      </div>
+      </div>  
 
-      <form action="https://formsubmit.co/5ab2324161bd40ae2b22058e36806778" method="POST" class="form">
+      <form action="https://formsubmit.co/lebranchupierre@yahoo.fr" method="POST" class="form">
 
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="_honey" style="display:none">
@@ -815,7 +823,6 @@
         <input type="submit" class="btn" value="Envoyer">
       </form>
     </div>
-
   </section>
 
   <footer>
@@ -838,7 +845,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/pierrelebranchu/portfolio" target="_blank">
+              <a href="https://github.com" target="_blank">
                 <svg width="20px" height="20px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" 
                   class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" 
                   viewBox="0 0 496 512"><path fill="currentColor" 

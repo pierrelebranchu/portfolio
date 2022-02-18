@@ -1,5 +1,7 @@
 /* Base */
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap');
+
 :root {
   --color-body: #333333;
   --background-body: #ffffff;
@@ -19,7 +21,8 @@ body {
   line-height: 1.6;
   color: var(--color-body);
   margin: 0;
-  background: var(--background-body);
+  /* background: var(--background-body); */
+  background: #fafafa;
 }
 
 h1,
@@ -45,10 +48,18 @@ h2,
   text-transform: uppercase;
 }
 
+h2, .hero_h2 {
+  font-size: 3.4rem;
+  font-family: 'Audiowide', sans-serif;
+  letter-spacing: 0.6px;
+}
+
 h3,
 .h3 {
   font-size: 2.1rem;
 }
+
+
 
 a {
   text-decoration: none;
@@ -121,6 +132,7 @@ section {
 }
 
 .section-title {
+  font-family: 'Audiowide', sans-serif;
   margin-top: 0;
   font-size: 3.8rem;
 }
@@ -161,7 +173,7 @@ section {
 }
 
 .header a:hover {
-  color: red;
+  color:red ;
 }
 
 .header .right {
